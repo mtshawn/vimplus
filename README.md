@@ -102,7 +102,6 @@ An automatic configuration program for vim
 | [vim-smooth-scroll][60]             | 让翻页更顺畅                                                                   |
 | [clever-f.vim][68]                  | 强化f和F键                                                                     |
 | [github-complete.vim][69]           | Emoji:dog:补全                                                                 |
-| [vimcdoc][73]                       | vim中文文档                                                                    |
 
 
 ## 快捷键
@@ -168,7 +167,7 @@ An automatic configuration program for vim
 
 - **`安装vimplus会经常失败，安装了几次都不成功！！！`**
 
-    vimplus安装时需要访问外国网站，由于网络原因，可能会失败，安装成功也要1个多小时，ycm插件有200M左右，下载比较耗时，这里有下载好的[YouCompleteMe.tar.gz][37]文件，下载后解压到~/.vim/plugged/目录，并进入YouCompleteMe目录执行`./install.py --clang-completer`即可安装。
+    vimplus安装时需要访问外国网站，由于网络原因，可能会失败，安装成功也要1个多小时，ycm插件有200M左右，下载比较耗时，这里有下载好的[YouCompleteMe.tar.gz][37]文件，下载后解压到~/.vim/plugged/目录，并进入YouCompleteMe目录，linux用户执行`./install.py --clang-completer`，mac用户执行`./install.py --clang-completer --system-libclang`即可安装。
 
 - **`使用第三方库时怎么让ycm补全第三方库API？`**
 
@@ -241,7 +240,7 @@ This software is licensed under the [MIT license][75]. © 2016 chxuan
   [26]: https://github.com/iamcco/markdown-preview.vim
   [27]: https://github.com/chxuan/change-colorscheme
   [36]: https://github.com/tpope/vim-fugitive
-  [37]: https://pan.baidu.com/s/1D28VE7weduuX1dpurwj8aw
+  [37]: https://pan.baidu.com/s/1-Z_U-eKbkMQqmI03qTzmFw
   [38]: https://github.com/Valloric/YouCompleteMe
   [39]: https://github.com/chxuan/vimplus/issues
   [50]: https://github.com/junegunn/vim-slash
@@ -263,6 +262,5 @@ This software is licensed under the [MIT license][75]. © 2016 chxuan
   [69]: https://github.com/rhysd/github-complete.vim
   [70]: https://github.com/chxuan/vim-buffer
   [72]: https://github.com/chxuan/vim-edit
-  [73]: https://github.com/yianwillis/vimcdoc
   [74]: https://github.com/chxuan/tagbar
   [75]: https://github.com/chxuan/vimplus/blob/master/LICENSE
