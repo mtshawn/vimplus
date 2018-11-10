@@ -40,13 +40,13 @@ function compile_vim_on_ubuntu()
     sudo rm -rf /usr/local/bin/vim*
     sudo rm -rf /usr/share/vim/vim*
     sudo rm -rf /usr/local/share/vim/vim*
-    rm -rf ~/vim
+    #rm -rf ~/vim
 
     sudo apt-get install -y libncurses5-dev libgnome2-dev libgnomeui-dev \
         libgtk2.0-dev libatk1.0-dev libbonoboui2-dev \
         libcairo2-dev libx11-dev libxpm-dev libxt-dev python-dev python3-dev ruby-dev lua5.1 lua5.1-dev
 
-    git clone https://github.com/vim/vim.git ~/vim
+    #git clone https://github.com/vim/vim.git ~/vim
     cd ~/vim
     ./configure --with-features=huge \
         --enable-multibyte \
@@ -80,7 +80,8 @@ function compile_vim_on_centos()
         perl-ExtUtils-XSpp perl-ExtUtils-CBuilder \
         perl-ExtUtils-Embed libX11-devel ncurses-devel
     
-    git clone https://github.com/vim/vim.git ~/vim
+    #git clone https://github.com/vim/vim.git ~/vim
+    git clone git@github.com:vim/vim.git ~/vim
     cd ~/vim
     ./configure --with-features=huge \
         --enable-multibyte \
